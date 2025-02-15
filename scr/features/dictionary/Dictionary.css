@@ -1,0 +1,189 @@
+.dictionary-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dictionary-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .dictionary-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .dictionary-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 1rem;
+  }
+  
+  .dictionary-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dictionary-error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Modal styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .modal-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .form-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .form-submit {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .form-submit:hover {
+    background-color: #218838;
+  }
+  
+  /* Word List Styles */
+  .word-list {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .word-list-title {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.25rem;
+  }
+  
+  .word-list-empty {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-style: italic;
+  }
+  
+  .word-list-container {
+    overflow-x: auto;
+  }
+  
+  .word-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .word-table th,
+  .word-table td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    text-align: left;
+  }
+  
+  .word-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  .word-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .word-table tr:hover {
+    background-color: #f2f2f2;
+  }
